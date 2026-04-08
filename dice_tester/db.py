@@ -26,10 +26,12 @@ def init_db(db_path: Path = DEFAULT_DB_PATH) -> None:
         con.commit()
 
 
-def insert_roll(result: str, db_path: Path = DEFAULT_DB_PATH) -> None:
+def insert_roll(result: str, db_path: Path = DEFAULT_DB_PATH) -> int:
     with get_connection(db_path) as con:
         con.execute("INSERT INTO rolls (result) VALUES (?)", (result,))
+        total = con.execute("SELECT COUNT(*) FROM rolls").fetchone()[0]
         con.commit()
+    return total
 
 
 def fetch_counts(db_path: Path = DEFAULT_DB_PATH) -> list[tuple[str, int]]:
@@ -43,4 +45,3 @@ def fetch_counts(db_path: Path = DEFAULT_DB_PATH) -> list[tuple[str, int]]:
             """
         ).fetchall()
     return rows
-

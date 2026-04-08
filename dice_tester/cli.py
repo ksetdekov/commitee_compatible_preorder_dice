@@ -43,8 +43,8 @@ def cmd_record(db_path: Path) -> None:
         if value not in VALID_RESULTS:
             print("Invalid result. Try again.")
             continue
-        insert_roll(value, db_path=db_path)
-        print(f"Saved: {value}")
+        total = insert_roll(value, db_path=db_path)
+        print(f"Saved: {value}, total throws = {total}")
 
 
 def cmd_simulate(db_path: Path, n: int) -> None:
@@ -88,4 +88,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
