@@ -2,6 +2,8 @@
 
 The die has 6 faces with the following symbols: reroll (R), one scull (x), two sculls (xx), one laural (o), two laurels (oo). The expected probabilities for each face are: R (1/6), x (2/6), xx (1/6), o (1/6), oo (1/6). The project includes a CLI utility to record rolls of the die and a Jupyter notebook to analyze the fairness of the die using binomial tests
 
+![Committee-compatible die](images/20260408_154027.jpeg)
+
 Included is a cube_committee.3mf file which can be printed on a multicolor 3D printer to create the physical die. The project also includes a SQLite database to store the recorded rolls (populted with real 100 rolls of the die) and a requirements.txt file for the necessary Python dependencies.
 
 Link to an [onshape file of the basic dice shape](https://cad.onshape.com/documents/0cc9aa178ba04d28153f3ca5/w/7b2492f0d9fa23528d8d8f8c/e/2d352638a9a3347946270b87).
