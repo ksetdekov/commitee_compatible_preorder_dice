@@ -8,7 +8,7 @@ Link to an [onshape file of the basic dice shape](https://cad.onshape.com/docume
 
 Link to my [blog post about the project](https://cyrilsetdekov.ru/2026/04/08/кубик-совместимый-с-игрой-комитет-куб/).
 
-Link to a printer-friendly [page on Makerworld with the 3mf files and print settings](https://makerworld.com/en/@ksetdekov).
+Link to a printer-friendly [page on Makerworld with the 3mf files and print settings](https://makerworld.com/en/models/2633716-dice-compatible-with-the-committee-komitet-game#profileId-2908750).
 
 <a href="https://cyrilsetdekov.ru/2026/04/08/кубик-совместимый-с-игрой-комитет-куб/">Dice for Committee game</a> © 2026 by <a href="https://cyrilsetdekov.ru/">Kirill Setdekov</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
